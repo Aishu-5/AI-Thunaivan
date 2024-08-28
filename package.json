@@ -1,0 +1,17 @@
+{
+  "name": "weguide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-backend":"cd backend && npm install",
+    "setup-frontend":"cd frontend && npm install",
+    "setup":"npm run setup-backend && npm run setup-frontend",
+    "start-backend":"cd backend && npm run dev",
+    "start-frontend":"cd frontend && npm start"
+   
+  },
+  "author": "",
+  "license": "ISC"
+}

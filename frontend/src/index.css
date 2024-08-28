@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .form-input{
+        @apply ml-10 rounded-md p-1 bg-gray-100 text-black font-semibold
+    }
+    .form-button{
+        @apply bg-gray-400 text-black m-2 ml-10 rounded-md py-2 px-3 mt-3
+    }
+    .form-label{
+        @apply font-bold text-xl p-3 ml-10
+    }
+}
